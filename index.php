@@ -25,7 +25,7 @@ var_dump($user1);
 
 //UTENTE PREMIUM
 
-$premium1 = new Premium('Licia', 'Verdi', true);
+$premium1 = new Premium('Licia', 'Verdi', true, 30);
 
 try{
     $premium1->setAge(30);
